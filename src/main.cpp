@@ -12,7 +12,7 @@ void setup() {
   tft.fillScreen(TFT_BLACK);
   tft.setSwapBytes(true);
 
-  tft.pushImage(0, 0, 128, 128, dog);
+  tft.pushImage(30, 30, 128, 128, dog);
   tft.setFreeFont(&Creepster_Caps_Regular_23);
 
   tft.drawString("Ceberus", 20, 130);
